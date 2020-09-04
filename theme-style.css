@@ -1,0 +1,19 @@
+@import "node_modules/tailwindcss/base.css";
+
+@import "node_modules/tailwindcss/components.css";
+
+@import "node_modules/tailwindcss/utilities.css";
+
+
+.menu ul {
+    @apply .flex
+}
+
+.menu ul li {
+    @apply .pl-4
+}
+
+
+.current_page_item {
+    @apply .text-white
+}
